@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  RSSReader
+
+  Created by Yuriy Chudin on 09/10/2017.
+  Copyright © 2017 Yuriy Chudin. All rights reserved.
+*/
+
+"alert.button.ok" = "OK";
+"alert.button.cancel" = "Cancel";
+"alert.button.add" = "Add";
+
+"alert.source.title" = "Add new source";
+"alert.source.message" = "Please enter an url of source";
+
+"error.title" = "Error";
+"error.wrong_url" = "Wrong url";
+"error.parser.wrong_item_format" = "RssParser: Pass feed entry, because its format is wrong";
+
+"action.remove" = "Remove";

@@ -1,0 +1,19 @@
+PODS:
+  - Alamofire (4.5.1)
+  - AlamofireImage (3.3.0):
+    - Alamofire (~> 4.5)
+  - SwiftGen (5.1.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - AlamofireImage (~> 3.3)
+  - SwiftGen (~> 5.1.2)
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
+  SwiftGen: dd2892e7fb008151f30e6ce0cf465b8b8d89e80e
+
+PODFILE CHECKSUM: af57d1211bad198e37f91347199845a728ad6a92
+
+COCOAPODS: 1.2.1
