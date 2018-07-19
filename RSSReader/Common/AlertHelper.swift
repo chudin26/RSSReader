@@ -12,9 +12,11 @@ class AlertHelper {
 
 	static func inputAlert(title: String, message: String, buttonName: String, placeholder: String, handler: @escaping (String?) -> ()) -> UIAlertController {
 		let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-		alert.addAction(UIAlertAction(title: buttonName, style: .default, handler: { _ in handler(alert.textFields![0].text) }))
+		alert.addAction(UIAlertAction(title: buttonName, style: .default, handler: { [unowned alert] _ in
+			handler(alert.textFields![0].text)
+		}))
 		alert.addAction(UIAlertAction(title: L10n.Alert.Button.cancel, style: .destructive, handler: { _ in handler(nil) }))
-		alert.addTextField(configurationHandler: {(textField: UITextField!) in
+		alert.addTextField(configurationHandler: { textField in
 			textField.placeholder = placeholder
 		})
 		
